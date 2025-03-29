@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Mini-game Behavior Pack",
+        "description": "Behavior Pack",
+        "uuid": "b1681f93-f750-4795-b1c4-ed1a36136c98",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 21, 70 ]
+    },
+    "modules": [ {
+        "description": "Behavior",
+        "type": "data",
+        "uuid": "e9048f6b-a781-4670-8842-9723648f94ac",
+        "version": [ 1, 0, 0 ]
+    }, {
+        "description": "Script",
+        "type": "script",
+        "entry": "scripts/main.js",
+        "language": "javascript",
+        "uuid": "4f1ba0c8-417b-474d-8f27-2694240901ab",
+        "version": [ 1, 0, 0 ]
+    } ],
+    "dependencies": [ {
+        "uuid": "d8381436-270e-428e-8073-44912f249efe",
+        "version": [ 1, 0, 0 ]
+    }, {
+        "module_name": "@minecraft/server",
+        "version": "2.0.0-beta"
+    }, {
+        "module_name": "@minecraft/server-ui",
+        "version": "2.0.0-beta"
+    } ]
+}
