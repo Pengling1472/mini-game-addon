@@ -1,0 +1,20 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Mini-game Resource Pack",
+        "description": "Resource Pack",
+        "uuid": "d8381436-270e-428e-8073-44912f249efe",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 21, 70 ]
+    },
+    "modules": [ {
+        "description": "Resource",
+        "type": "resources",
+        "uuid": "765ed0b3-e373-415a-920f-47b46e75cb5f",
+        "version": [ 1, 0, 0 ]
+    } ],
+    "dependencies": [ {
+        "uuid": "b1681f93-f750-4795-b1c4-ed1a36136c98",
+        "version": [ 1, 0, 0 ]
+    } ]
+}
